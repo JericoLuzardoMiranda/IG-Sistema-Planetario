@@ -4,11 +4,12 @@
 
 ## 📑 Tabla de Contenidos
 
-1. [📘 Introducción](#-introducción)  
-2. [🪐 Componentes del Sistema Solar](#-componentes-del-sistema-solar)  
-3. [🕹️ Interacciones con el usuario](#-interacciones-con-el-usuario)  
-4. [🧩 Funcionalidades](#-funcionalidades)  
-5. [⚙️ Instalación y ejecución](#-instalación-y-ejecución)
+1. [📘 Introducción](#introducción)  
+2. [🛠️ Tecnologías utilizadas](#tecnologías-utilizadas)  
+3. [🪐 Componentes del Sistema Solar](#componentes-del-sistema-solar)  
+4. [🕹️ Interacciones con el usuario](#interacciones-con-el-usuario)  
+5. [🧩 Funcionalidades](#funcionalidades)  
+6. [⚙️ Instalación y ejecución](#instalación-y-ejecución)
 
 ---
 
@@ -28,40 +29,50 @@ Finalmente, contiene un satélite que orbita alrededor del planeta, que cuenta c
 
 ---
 
+## 🛠️ Tecnologías utilizadas
+
+- [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript):  Lenguaje principal del proyecto.  
+- [Three.js](https://threejs.org/):  Biblioteca para gráficos 3D en la web.  
+- [Node.js](https://nodejs.org/):  Entorno de ejecución para el servidor y herramientas.  
+- [npm](https://www.npmjs.com/):  Gestor de paquetes para instalar dependencias.  
+- [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas):  Formato para datos climáticos.  
+- [Visual Studio Code](https://code.visualstudio.com/):  Editor de código recomendado.  
+
+---
+
 ## 🪐 Componentes del Sistema Solar
 
 ### 🌍 Planetas
-- Mercurio, Venus, Tierra y su Luna, Marte con sus Lunas Fobos y Deimos, Júpiter, Saturno, Urano, Neptuno, Plutón
+- Mercurio, Venus, Tierra y su Luna, Marte con sus Lunas Fobos y Deimos, Júpiter, Saturno, Urano, Neptuno, Plutón.
 
 ### ☀️ Cuerpos celestes
-- Sol (estrella central)  
-- Cinturón de Asteroides (entre Marte y Júpiter)  
-- Cinturón de Kuiper (más allá de Neptuno)
+- Sol (estrella central).  
+- Cinturón de Asteroides (entre Marte y Júpiter).  
+- Cinturón de Kuiper (más allá de Neptuno).
 
 ### 💡 Iluminación
-    - La luz ambiental proporciona una iluminación uniforme en toda la escena, creando sombras suaves, lo que permite que esta luz ayuda a que todos los
-      planetas se vean bien desde cualquier ángulo.
-      
-    - La luz de punto simula la luz más directa sobre los planetas y lunas por el Sol.
+- La luz ambiental proporciona una iluminación uniforme en toda la escena, creando sombras suaves, lo que permite que esta luz ayuda a que todos los
+  planetas se vean bien desde cualquier ángulo.
+- La luz de punto simula la luz más directa sobre los planetas y lunas por el Sol.
     
 ### 🧱 Otros componentes
-    - Nubes atmosféricas en la Tierra  
-    - Rotación de cada planeta sobre su eje
+- Nubes atmosféricas en la Tierra.  
+- Rotación de cada planeta sobre su eje.
 
 ---
 
 ## 🕹️ Interacciones con el usuario
 
 ### 📘 Manual de Instrucciones
-    - `H`: Mostrar/Ocultar cuadro de instrucciones
+- Presiona `H` para mostrar u ocultar el cuadro de instrucciones.
 
 ### 🛸 Control del Ovni
-    - ↑ Avanzar  
-    - ↓ Retroceder  
-    - ← Mover izquierda  
-    - → Mover derecha  
-    - `W` / `S`: Subir / Bajar  
-    - `A` / `D`: Girar ovni
+- ↑ Avanzar  
+- ↓ Retroceder  
+- ← Mover izquierda  
+- → Mover derecha  
+- `W` / `S`: Subir / Bajar  
+- `A` / `D`: Girar ovni
 
 ### 🪐 Visualización de planetas y órbitas
 - Botón `Mostrar Planetas`: Acercarse al planeta  
@@ -94,3 +105,15 @@ Finalmente, contiene un satélite que orbita alrededor del planeta, que cuenta c
 > ⚠️ Requisitos previos:  
 > - Tener [Node.js](https://nodejs.org/) instalado.  
 > - Tener [Git](https://git-scm.com/) instalado para clonar el repositorio.
+
+### 📥 Clonar el repositorio
+```bash
+git clone https://github.com/JericoLuzardoMiranda/IG-Sistema-Planetario.git
+cd IG-Sistema-Planetario/app
+npm install
+npm start
+```
+
+Después de ejecutar `npm start`, abre tu navegador y visita la URL que aparece en la consola, normalmente algo como `http://localhost:puerto` (el puerto puede variar).
+
+Para detener la aplicación, presiona `Ctrl + C` en la terminal.
