@@ -1,15 +1,14 @@
 # 🌌 Sistema Planetario
-
----
+**Proyecto de Informática Gráfica**
 
 ## 📑 Tabla de Contenidos
-
-1. [📘 Introducción](#introducción)  
-2. [🛠️ Tecnologías utilizadas](#tecnologías-utilizadas)  
-3. [🪐 Componentes del Sistema Solar](#componentes-del-sistema-solar)  
-4. [🕹️ Interacciones con el usuario](#interacciones-con-el-usuario)  
-5. [🧩 Funcionalidades](#funcionalidades)  
-6. [⚙️ Instalación y ejecución](#instalación-y-ejecución)
+- Introducción
+- Tecnologías utilizadas
+- Componentes del Sistema Solar
+- Interacciones con el usuario
+- Funcionalidades
+- Demostración visual
+- Instalación y ejecución
 
 ---
 
@@ -98,6 +97,17 @@ Finalmente, contiene un satélite que orbita alrededor del planeta, que cuenta c
 - `latLonToXYZ()`, `createSatelliteWithAntenna()`, `createSatelliteAntenna()`
 - `createSolarPanels()`, `createWeatherIcon()`, `mappingClimate()`
 - `fragmentShader()`, `vertexShader()`, `createPlanet()`
+
+---
+
+## 🖼 Demostraciones visuales
+- **Desde la vista de planetas**
+  
+  ![Vista Planetas](https://github.com/JericoLuzardoMiranda/IG-Sistema-Planetario/blob/7ac954474ed441aba85e0b91e6ddef4319036f56/media/captura1.png)
+
+- **Desde la vista de un ovni**
+
+  ![Vista Ovni](https://github.com/JericoLuzardoMiranda/IG-Sistema-Planetario/blob/7ac954474ed441aba85e0b91e6ddef4319036f56/media/captura2.png)
 
 ---
 
