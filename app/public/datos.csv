@@ -1,0 +1,15 @@
+Ciudad;Latitud;Longitud;Continente;Temperatura_Media;Tipo_de_Clima
+Los Ángeles;34.0522;-118.2437;América del Norte;18.3;Templado
+Tokio;35.6895;139.6917;Asia;15.6;Subtropical
+Sídney;-33.8688;151.2093;Oceanía;21.0;Subtropical
+Moscú;55.7558;37.6173;Europa;5.0;Continental
+Manaos;-5.6037;-58.3816;América del Sur;17.0;Tropical
+Pekín;39.9042;116.4074;Asia;13.0;Continental;
+Santiago;-33.4489;-70.6693;América del Sur;14.7;Mediterráneo
+Accra;-5.6037;18.3816;África;17.0;Tropical
+Londres;51.5074;-0.1278;Europa;11.5;Templado
+Guatemala;14.6349;-90.5069;América Central;22.5;1Tropical
+Lhasa;29.6560;91.1723;Asia;8.5;Polar
+Tamanrasset;22.7850;5.5220;África;26.0;Tropical
+Inuvik;68.3600;-133.7210;América del Norte;-10.0;Polar
+Yakarta;-6.2088;106.8456;Asia;27.5;Tropical

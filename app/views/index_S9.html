@@ -1,0 +1,90 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sistema Solar II - IG-EII-ULPGC</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+<body>
+    
+    <div id="button-container" style="position: absolute; top: 10px; left: 10px; z-index: 10;">
+        <button id="change-view-button">Cambiar vista</button>
+        <button id="change-button">Mostrar Planetas</button>
+        <ul id="planet-list" style="display: none;">
+            <li>
+                <div class="button-group">
+                    <button id="mercury-button">Mercurio</button>
+                    <button id="venus-button">Venus</button>
+                    <button id="earth-button">Tierra</button>
+                </div>
+            </li>
+            <li>
+                <div class="button-group">
+                    <button id="mars-button">Marte</button>
+                    <button id="jupiter-button">Júpiter</button>
+                    <button id="saturn-button">Saturno</button>
+                </div>
+            </li>
+            <li>
+                <div class="button-group">
+                    <button id="uranus-button">Urano</button>
+                    <button id="neptune-button">Neptuno</button>
+                    <button id="pluto-button">Plutón</button>
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+    <div id="infoBox" style="display: none;">
+        <h2 id="infoTitle">Título de la Información</h2>
+        <p id="infoDescription">Descripción de la Información</p>
+        <button id="hideButton">Cerrar</button>
+    </div>
+  
+    <!-- Añade el div para el texto de control -->
+    <div id="control-text">
+        <strong>INSTRUCCIONES</strong>
+        <ul><br>
+          <li><strong>Tecla H</strong>: Ocultar / Mostrar instrucciones.</li>
+          <li><strong>Tecla O</strong>: Ocultar / Mostrar líneas de órbitas.</li>
+            <br>
+            <li>Haga clic en <strong>Cambiar vista</strong> para alternar entre las vistas del OVNI y el Sistema Solar.</li>
+            <ul>
+                <li><strong>Controles para mover el OVNI:</strong></li>
+                <ul>
+                    <li><strong>Tecla Flecha hacia arriba</strong>: Acelera hacia adelante.</li>
+                    <li><strong>Tecla Flecha hacia abajo</strong>: Retrocede o frena.</li>
+                    <li><strong>Tecla Flecha hacia la izquierda</strong>: Mueve el OVNI a la izquierda.</li>
+                    <li><strong>Tecla Flecha hacia la derecha</strong>: Mueve el OVNI a la derecha.</li>
+                    <li><strong>Tecla A</strong>: Gira a la izquierda.</li>
+                    <li><strong>Tecla D</strong>: Gira a la derecha.</li>
+                    <li><strong>Tecla W</strong>: Eleva el OVNI.</li>
+                    <li><strong>Tecla S</strong>: Desciende el OVNI.</li>
+                </ul>
+            </ul>
+            <br>
+            <li>Haga clic en <strong>Mostrar planetas</strong> cuando esté en la vista del Sistema Solar.</li>
+            <ul>
+                <li>Seleccione un planeta de la lista para enfocarlo en la visualización.</li>
+                <li>Después, haga clic en el planeta en la escena para ver información detallada.</li>
+            </ul>
+            <br>
+        </ul>
+    </div>
+  
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.152.1/build/three.module.js",  
+                "three/": "https://cdn.skypack.dev/three@0.152.1/"
+            }
+        }
+    </script>
+
+    <script src="https://threejs.org/examples/js/loaders/FontLoader.js"></script>    
+    <script src="/script-sistema-solar.js" type="module"></script>
+</body>
+</html>
+

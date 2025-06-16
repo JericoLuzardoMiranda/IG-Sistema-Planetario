@@ -1,0 +1,88 @@
+html, body {
+    overflow: hidden;
+    margin: 0; height: 100%;
+    background-color: #000000; color: #FFFFFF;
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    display: block;
+    width: 100%; height: 100%;
+}
+
+#button-container {
+    position: absolute;
+    top: 10px; left: 10px; z-index: 10;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px; border-radius: 5px;
+}
+
+button {
+    padding: 10px; margin: 5px 0;
+    border: none; border-radius: 5px;
+    background-color: purple; color: white;
+    cursor: pointer; font-size: 14px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+button:hover { background-color: red; color: white; }
+
+#planet-list {
+    list-style: none;
+    padding: 0;
+}
+
+#planet-list li { margin: 5px 0; }
+
+#planet-list button {
+    background-color: lightblue; color: black;
+    padding: 8px; border-radius: 5px;
+}
+
+#planet-list button:hover { background-color: blue; color: white; }
+
+
+/* Cuadro de información */
+#infoBox {
+    position: fixed; display: none; left: 50%; bottom: 50px;
+    transform: translateX(-50%); 
+    z-index: 20; width: 650px; padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); color: #000000; 
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); 
+}
+
+#infoTitle { margin: 0; font-size: 18px; }
+#infoDescription { margin: 10px 0; text-align: justify; }
+
+#hideButton {
+    background-color: purple; color: white;
+    border: none; border-radius: 5px;
+    padding: 10px; cursor: pointer;
+}
+
+#hideButton:hover { background-color: red; }
+
+#control-text {
+    position: absolute; top: 10px; right: 20px; 
+    z-index: 15; 
+    background-color: rgba(0, 180, 150, 0.9); color: black;
+    font-size: 14px; text-align: justify;
+    width: 35%; padding: 10px; 
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#control-text ul {
+    list-style-type: disc;
+    padding-left: 25px; margin: 0;
+}
+
+#control-text li { margin: 5px 0; }
+
+
+@media (max-width: 600px) {
+    button { font-size: 12px; padding: 8px; }
+  
+    #infoBox { width: 350px; }
+}
