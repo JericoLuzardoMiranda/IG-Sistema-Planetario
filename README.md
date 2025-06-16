@@ -7,7 +7,7 @@
 - Componentes del Sistema Solar
 - Interacciones con el usuario
 - Funcionalidades
-- Demostración visual
+- Demostraciones visuales
 - Instalación y ejecución
 
 ---
